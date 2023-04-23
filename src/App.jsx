@@ -10,6 +10,8 @@ import "primereact/resources/primereact.min.css"; //core css
 import "primeicons/primeicons.css"; //icons
 import "primeflex/primeflex.css"; //easy CSS flex
 
+import { ActivityList } from "./ActivityList";
+
 // Card: https://www.primefaces.org/primereact/card/
 // Grid system responsive at bottom of: https://www.primefaces.org/primeflex/gridsystem
 // Update list of components: https://beta.reactjs.org/reference/react/useState#examples-objects
@@ -26,57 +28,69 @@ function App() {
           <ChemicalCard
             chemical="Dopamin"
             description="The reward chemical"
-            activities={[
-              "Completing a task",
-              "Doing self-care activities",
-              "Eating food",
-              "Celebrating little wins",
-            ]}
             color="PapayaWhip"
-          />
+          >
+            <ActivityList
+              activities={[
+                "Completing a task",
+                "Doing self-care activities",
+                "Eating food",
+                "Celebrating little wins",
+              ]}
+            />
+          </ChemicalCard>
         </div>
         <div class="col-12 lg:col-6">
           <ChemicalCard
             chemical="Oxytocin"
             description="The love hormone"
-            activities={[
-              "Playing with a dog",
-              "Playing with a baby",
-              "Holding hands",
-              "Hugging your family",
-              "Giving compliments",
-            ]}
             color="LightCyan"
-          />
+          >
+            <ActivityList
+              activities={[
+                "Playing with a dog",
+                "Playing with a baby",
+                "Holding hands",
+                "Hugging your family",
+                "Giving compliments",
+              ]}
+            />
+          </ChemicalCard>
         </div>
         <div class="col-12 lg:col-6">
           <ChemicalCard
             chemical="Serotonin"
             description="The mood stabilizer"
-            activities={[
-              "Meditating",
-              "Running",
-              "Sun exposure",
-              "Walk in nature",
-              "Swimming",
-              "Cycling",
-            ]}
             color="HoneyDew"
-          />
+          >
+            <ActivityList
+              activities={[
+                "Meditating",
+                "Running",
+                "Sun exposure",
+                "Walk in nature",
+                "Swimming",
+                "Cycling",
+              ]}
+            />
+          </ChemicalCard>
         </div>
         <div class="col-12 lg:col-6">
           <ChemicalCard
             chemical="Endorphin"
             description="The pain killer"
-            activities={[
-              "Laughter exercises",
-              "Essential oils",
-              "Watch a comedy",
-              "Dark chocolate",
-              "Exercising",
-            ]}
             color="LightYellow"
-          />
+          >
+            <ActivityList
+              activities={[
+                "Laughter exercises",
+                "Essential oils",
+                "Watch a comedy",
+                "Dark chocolate",
+                "Exercising",
+              ]}
+            />
+          </ChemicalCard>
         </div>
       </div>
     </div>
