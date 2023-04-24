@@ -26,8 +26,8 @@ function App() {
       <h1>Happy hormone boosters</h1>
       <div class="grid">
         {data.map((chem) => (
-          <div class="col-12 lg:col-6">
-            <ChemicalCard key={chem.chemical} {...chem}>
+          <div class="col-12 lg:col-6" key={chem.chemical}>
+            <ChemicalCard {...chem}>
               <ActivityList activities={chem.activities} />
             </ChemicalCard>
           </div>
