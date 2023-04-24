@@ -27,7 +27,7 @@ function App() {
       <div class="grid">
         {data.map((chem) => (
           <div class="col-12 lg:col-6">
-            <ChemicalCard {...chem} >
+            <ChemicalCard key={chem.chemical} {...chem}>
               <ActivityList activities={chem.activities} />
             </ChemicalCard>
           </div>
