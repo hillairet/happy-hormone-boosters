@@ -1,0 +1,50 @@
+[
+  {
+    "chemical": "Dopamin",
+    "description": "The reward chemical",
+    "color": "PapayaWhip",
+    "activities": [
+      "Completing a task",
+      "Doing self-care activities",
+      "Eating food",
+      "Celebrating little wins"
+    ]
+  },
+  {
+    "chemical": "Oxytocin",
+    "description": "The love hormone",
+    "color": "LightCyan",
+    "activities": [
+      "Playing with a dog",
+      "Playing with a baby",
+      "Holding hands",
+      "Hugging your family",
+      "Giving compliments"
+    ]
+  },
+  {
+    "chemical": "Serotonin",
+    "description": "The mood stabilizer",
+    "color": "HoneyDew",
+    "activities": [
+      "Meditating",
+      "Running",
+      "Sun exposure",
+      "Walk in nature",
+      "Swimming",
+      "Cycling"
+    ]
+  },
+  {
+    "chemical": "Endorphin",
+    "description": "The pain killer",
+    "color": "LightYellow",
+    "activities": [
+      "Laughter exercises",
+      "Essential oils",
+      "Watch a comedy",
+      "Dark chocolate",
+      "Exercising"
+    ]
+  }
+]
